@@ -1,0 +1,17 @@
+# .dockerignore
+# Ignore Maven build directories
+target/
+# Ignore Git related files
+.git
+.gitignore
+# IDE specific files
+.idea/
+.vscode/
+# Environment variables (if you use .env for local config)
+.env
+# Maven wrapper files (optional, but good practice)
+mvnw
+mvnw.cmd
+.mvn/
+# Log files
+*.log
